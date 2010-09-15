@@ -1,0 +1,290 @@
+<head>
+    <title> Proposta de TCC de João MM </title>
+	<meta name="description" content="TCC de Lucianna e João" />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+    <script language="JavaScript" src="troca_conteudo.js"></script>
+</head>
+
+<body>
+    <div id="topo">
+        <div id="titulo">
+            <h1> tcc </h1>
+        </div>
+        <div id="menu">
+		    <ul>
+			    <li><a onclick="troca_conteudo('objetivos')" href="#">Objetivos</a></li>
+			    <li><a onclick="troca_conteudo('resumo')" href="#">Resumo</a></li>
+			    <li><a onclick="troca_conteudo('atividades')" href="#">Atividades</a></li>
+   			    <li><a onclick="troca_conteudo('estrutura')" href="#">Estrutura</a></li>
+			    <li><a onclick="troca_conteudo('arquivos')" href="#">Arquivos</a></li>
+		    </ul>
+	    </div>	
+    </div>
+
+    <div id="conteudo">
+		<div id="info">
+			<div id="info-topo">
+				<div id="info-rodape">
+					<ul>
+						<li>
+							<h3> Alunos </h3>
+                            <p> Lucianna Thomaz Almeida </p>
+                            <p> João Machini de Miranda </p>
+                        </li>
+                        <li>
+                            <h3> Orientador </h3>
+                            <p> Prof. Fabio Kon </p>
+						</li>
+                        <li>
+                            <h3> Título </h3>
+                            <p> Características Subjetivas e Métodos Objetivos para Avaliação do Código-Fonte </p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+        <div id="conteudo-central">
+            <div id="objetivos" style="display: ;">
+                <h2>Tema</h2>
+		        <p>
+                    Baseado nos conceitos propostos por renomados especialistas em desenvolvimento
+                    de software orientado a objetos quanto a um código limpo,
+                    este trabalho tem o objetivo de estabelecer uma relação direta entre esses aspectos
+                    subjetivos estudados e seu mapeamento para métricas de código fonte.
+                </p>
+                <p>
+                    Após um levantamento dos principais conceitos e técnicas, tentaremos apresentar uma ou mais métricas para servirem 
+                    como indicativo. Por fim, o trabalho apresentará ferramentas para auxiliar na extração desses valores e que possibilitarão
+                    um acompanhamento do código ao longo do desenvolvimento do software de forma automatizada.
+                </p>
+                <h2> Objetivos </h2>
+                <p> 
+                    O principal objetivo deste trabalho é auxiliar os programadores a melhorem a expressividade e clareza de seus códigos-fonte
+                    através de um mapeamento objetivo do conhecimento de especialistas em desenvolvimento de software. 
+                    Para tanto, agruparemos os principais conceitos da literatura relacionada e proporemos um conjunto
+                    de métricas para facilitar uma avaliação mais profunda.
+                </p>
+                <p>
+                    A proposta surgiu da nossa própria necessidade de entender o que é um bom código orientado a objetos. Gostaríamos de desenvolver
+                    um trabalho para nos aprofundarmos no tema, além de possivelmente auxiliar outras pessoas a pensarem nos seus códigos.
+                    Com um mapeamento das ideias subjetivas para medidas objetivas, podemos facilitar
+                    o processo de avaliação e dar uma base de comparação, tanto entre projetos e suas versões, quanto com os conceitos propostos.
+                <p>
+                    Uma vez com um modelo teórico, gostaríamos de obter as métricas de maneira automatizada.
+                    Sendo assim, também temos como objetivo desenvolver e apresentar ferramentas que podem calcular tais valores e que possibilitem um 
+                    acompanhamento do projeto.
+                </p>
+            </div>
+
+            <div id="resumo" style="display: none;">
+                <h2> Resumo </h2>
+                <p> 
+                    Ao produzir software, os desenvolvedores não podem ficar satisfeitos com um código que simplesmente faz o trabalho que deve ser feito. 
+                    É preciso considerar que será necessário manter a aplicação, fazer mudanças à medida em que os requisitos se alterarem e que outros 
+                    terão que usar e aprimorar o código.
+                </p>
+                <p>
+                    Diante disso, este trabalho aborda ideias e conceitos elaborados por especialistas no desenvolvimento de software
+                    orientado a objetos, buscando um maior entendimento de boas soluções, práticas e cuidados quanto ao código-fonte. Segundo Robert Martin, 
+                    um programador deveria sempre fazer com que seu código seja uma composição de instruções e abstrações que possam ser facilmente entendidas, uma 
+                    vez que gastamos a maior parte do tempo lendo-o para incluir funcionalidades e corrigir falhas.
+                </p>
+                <p>
+                    Os seguintes livros são base para os nossos estudos: <em>Clean Code</em> de Robert Martin,
+                    <em>Implementation Patterns</em> de Kent Beck e, possivelmente <em>Code Complete</em> de Steve McConnell.
+                    Todos possuem diversos aspectos que ajudam a identificar o que é um código limpo como escolhas de bons nomes, falta de duplicações, organização e
+                    simplicidade. Esta monografia conterá uma reunião de todos esses, explicitando sua relevância e aplicação.
+                    Adicionalmente, conterá uma visão geral sistematizada de entrevistas com o Prof. Fabio Kon, Prof. Alan Durhan e com Joseph Yoder quanto aos aspectos que julgam
+                    importantes.
+                </p>
+                <p>
+                    Além de conter o levantamento teórico acima citado, esse trabalho também apresentará um mapeamento entre os conceitos encontrados na literatura em 
+                    uma avaliação objetiva através de métricas de código-fonte. A ideia é possibilitar aos programadores fazer uma avaliação do software 
+                    usando dados que espelham o que os especialistas recomendam, tornando possível um acompanhamento do projeto.
+                </p>
+                <p>
+                    A grande vantagem de usar métricas de código-fonte é que elas podem ser bons indicativos para os critérios subjetivos, além de serem extraídas 
+                    computacionalmente com ferramentas capazes de interpretar o código-fonte e calculá-las. Diante disso, apresentaremos o Projeto Mezuro que contém 
+                    ferramentas com intuito de automatizar a extração dessas métricas. 
+                </p>
+            </div>
+
+
+            <div id="atividades" style="display: none;">
+                <h2> Atividades </h2>
+                <div id="atividades_realizadas">
+                    <h3> Atividades já realizadas </h3>
+                    <p>
+                        Participamos de um grupo de pesquisa orientado pelo Prof. Fabio Kon, no qual colaboramos com o desenvolvimento de ferramentas
+                        capazes de calcular métricas de código-fonte. Já estamos trabalhando em cima de uma ferramenta livre, chamada Analizo, desde o
+                        segundo semestre de 2009, que, atualmente, analiza projetos nas linguagens Java, C e C++. Além disso, estamos desenvolvendo
+                        uma aplicação Web na Disciplina de Laboratório de Programação Extrema para possibilitar o acompanhamento online das métricas
+                        de um projeto. Essa aplicação chama Mezuro e conta com a colaboração dos doutorandos Paulo Meirelles do IME e Antonio Terceiro da UFBA.
+                    </p>
+                    <p>
+                        Dito isso, já temos algum conhecimento da área em que vamos trabalhar, pois já tivemos contato com diversas métricas e alguns
+                        artigos relacionados.
+                    </p>
+                </div>
+                <br/>
+                <div id="cronograma">
+                    <h3> Cronograma </h3>
+                    <table id="crono"> 
+                        <tr> 
+                            <th> Atividade / Mês </th> 
+                            <th> Mar </th> 
+                            <th> Abr </th> 
+                            <th> Mai </th> 
+                            <th> Jun </th> 
+                            <th> Jul </th> 
+                            <th> Ago </th> 
+                            <th> Set </th> 
+                            <th> Out </th>
+                            <th> Dez </th>
+                        </tr>
+                        <tr> 
+                            <td> Desenvolvimento de Ferramentas do Mezuro  </th> 
+                            <td> X </td> 
+                            <td> X </td> 
+                            <td> X </td> 
+                            <td> X </td> 
+                            <td> X </td> 
+                            <td> </td> 
+                            <td> </td> 
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                        <tr> 
+                            <td> Estudo da Literatura </th> 
+                            <td>  </td> 
+                            <td> X </td> 
+                            <td>  </td> 
+                            <td> X </td> 
+                            <td> X </td> 
+                            <td> X </td> 
+                            <td> </td> 
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                        <tr> 
+                            <td> Elaboração do Mapeamento </th> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td> X </td> 
+                            <td> X </td> 
+                            <td> X </td>
+                            <td> </td>
+                        </tr>
+                        <tr> 
+                            <td> Seminário sobre Qualidade de Código </th> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td> X </td> 
+                            <td> </td> 
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                        <tr> 
+                            <td> Entrevistas </th> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td> X </td> 
+                            <td> X</td> 
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                        <tr> 
+                            <td> Escrita da Monografia </th> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td> X </td> 
+                            <td> X </td> 
+                            <td> X </td>
+                            <td> X </td>
+                        </tr>
+                        <tr> 
+                            <td> Apresentação </th> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td> 
+                            <td>  </td>
+                            <td> X </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="estrutura" style="display: none;">
+                <h2> Estrutura Esperada</h2>
+                <p class="sessao"> Introdução </p>
+                <p> 
+                    Nesta seção discutiremos por que temos que nos preocupar com o código-fonte de nossas aplicações. Usaremos argumentos bastante
+                    conhecidos pela Engenharia de Software e abordaremos aspectos negativos da falta de preocupação com o código. Além disso, falaremos
+                    um pouco sobre a bibliografia usada e os aspectos que compõe o trabalho.
+                </p>
+                <p class="sessao"> Critérios Subjetivos </p>
+                <p> 
+                    Apresentaremos uma visão geral dos principais conceitos e idéias da literatura feita por grandes especialistas na área. 
+                    Faremos um apanhado geral dos pontos em que os autores concordam, mostrando como podemos melhorar nosso código e porque 
+                    determinados aspectos devem ser evitados.
+                </p>
+                <p>
+                    Nesta sessão, também apresentaremos uma visão geral das entrevistas que realizaremos.
+                </p>
+
+                <p class="sessao"> Métricas Objetivas </p>
+                <p> 
+                    Apresentaremos uma visão geral sobre métricas de código-fonte e como podem servir como indicativos para identificar atributos importantes
+                    do código-fonte.
+                    A sessão também conterá uma discussão sobre como podemos mapear os conceitos da seção anterior em métricas objetivas. A ideia é apresentar
+                    quais métricas podem ser utilizadas, como obtê-las e como cobrem os aspectos subjetivos.
+                    Ao final, mostraremos um pouco sobre a opinião dos entrevistados sobre desse mapeamento.
+                </p>
+
+                <p class="sessao"> Projeto Mezuro: ferramentas para acompanhamento de métricas de código-fonte </p>
+                <p> 
+                    Conterá uma apresentação das ferramentas desenvolvidas no contexto do Projeto Mezuro capazes de 
+                    calcular as métricas e prover o acompanhamento de um projeto. Além disso, mostraremos como as ferramentas podem ser utilizadas 
+                    para automatizar o mapeamento proposto.
+                </p>
+                <p class="sessao"> Conclusão </p>
+                <p class="sessao"> Bibliografia </p>
+            </div>
+            
+            <div id="arquivos" style="display: none;">
+                <h2> Arquivos </h2>
+                <table>
+                    <tr>
+                        <td><a href="arquivos/proposta.pdf"><img src="imagens/file.png"/> </a></td>
+                    </tr>
+                    <tr>
+                        <td> proposta.pdf </td>
+                    </tr>
+                </table>
+
+            <div id="contato" style="display: none;">
+                <h2> Contato </h2>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</body>

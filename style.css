@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    background-color: white;
+    text-align: justify;
+    background: white url(imagens/topo.png) repeat-x scroll left top;
+}
+
+a {
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    border: none;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+    font-size: 75px;
+    font-family: Times, serif;
+    color: black;   
+}
+
+h2 {
+	margin: 20px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	color: #232F01;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+}
+
+h3 {
+  	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	text-transform: lowercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #454E55;
+}
+
+p {
+    margin: 0px 0px 15px 0px;
+    padding: 0px 5px;
+}
+
+#topo {
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#titulo {
+	float: left;
+	width: 225px;
+	height: 75px;
+	margin: 0px;
+	padding: 0px 0px 0px 85px;
+}
+
+#menu {
+	float: right;
+	width: 590px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline;
+	text-align: center;
+}
+
+#menu a {
+	float: left;
+    height: 30px;
+	padding: 45px 20px 0px 20px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #383B3F;
+}
+
+#menu a:hover {
+	background: url(imagens/menu.png) repeat-x left bottom;
+}
+
+#conteudo {
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+
+#conteudo-central {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 600px;
+    background-color: white;
+}
+
+#info {
+    float: left;
+    width: 260px;
+	background: url(imagens/info-fundo.png) repeat-y left top;
+    font-size: 12px;
+    text-align: left;   
+}
+
+#info-topo {
+	background: url(imagens/info-topo.png) no-repeat left top;
+}
+
+#info-rodape {
+	background: url(imagens/info-rodape.png) no-repeat left bottom;
+	padding: 40px 40px 10px 40px;
+}
+
+#info ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 40px 0px;
+}
+#info li {
+	margin: 0;
+	padding: 7px 0px;
+	border: none;
+}
+
+#info p {
+    margin: 5px 0;  
+}
+
+.sessao {
+    color: gray;
+    font-size: 16px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+}
+
+#resumo {
+    margin: 40px 0px 0px 0px;
+}
+
+#objetivos {
+    margin: 40px 0px 0px 0px;
+}
+
+#atividades {
+    margin: 40px 0px 0px 0px;
+}
+
+#atividades ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 40px 0px;
+}
+
+#estrutura {
+    margin: 40px 0px 0px 0px;
+}
+
+#arquivos {
+    margin: 40px 0px 0px 0px;
+}
+
+#arquivos table{
+    margin: 20px 40px;
+    text-align: center;
+}
+
+#contato {
+    margin: 40px 0px 0px 0px;
+}
+
+#crono {
+    width: 95%;
+    margin: auto;    
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#crono tr {
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+}
+
