@@ -92,7 +92,7 @@ p {
 #menu a {
 	float: left;
     height: 30px;
-	padding: 45px 20px 0px 20px;
+	padding: 45px 15px 0px 15px;
 	text-decoration: none;
 	text-transform: lowercase;
 	font-family: Helvetica, Arial, sans-serif;
@@ -142,7 +142,8 @@ p {
 	list-style: none;
 	margin: 0px;
 	padding: 0px 0px 40px 0px;
-}
+}
+
 #info li {
 	margin: 0;
 	padding: 7px 0px;
@@ -193,6 +194,11 @@ p {
     text-align: center;
 }
 
+#arquivos td {
+	padding: 10px;
+	width: 150px;
+}
+
 #contato {
     margin: 40px 0px 0px 0px;
 }
@@ -209,3 +215,15 @@ p {
     padding: 0px 0px 20px 0px;
 }
 
+.file_img {
+	width: 90px;
+}
+
+#links p {
+	margin: 0px 0px 5px 0px;
+    padding: 0px 5px;
+}
+
+#links .identado {
+	padding: 0px 20px;
+}
