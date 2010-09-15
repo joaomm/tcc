@@ -1,4 +1,4 @@
-var atual = 'objetivos';
+var atual = 'tema';
 
 function troca_conteudo(id_da_div) {
 	document.getElementById(atual).style.display = 'none';
