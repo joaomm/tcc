@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: helvetica, arial, sans-serif;
+    font-family: Helvetica, arial, sans-serif;
     font-size: 13px;
     background-color: white;
     text-align: justify;
@@ -123,7 +123,7 @@ p {
     float: left;
     width: 260px;
 	background: url(imagens/info-fundo.png) repeat-y left top;
-    font-size: 12px;
+    font-size: 13px;
     text-align: left;   
 }
 
@@ -162,15 +162,15 @@ p {
 }
 
 #resumo {
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 #objetivos {
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 #atividades {
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 #atividades ul {
@@ -182,25 +182,26 @@ p {
 }
 
 #estrutura {
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 #arquivos {
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 #arquivos table{
     margin: 20px 40px;
+	width: 90%;
     text-align: center;
 }
 
 #arquivos td {
 	padding: 10px;
-	width: 150px;
+	width: 130px;
 }
 
 #contato {
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 #crono {

@@ -1,4 +1,4 @@
-var atual = 'tema';
+var atual = 'arquivos';
 
 function troca_conteudo(id_da_div) {
 	document.getElementById(atual).style.display = 'none';
