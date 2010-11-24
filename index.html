@@ -13,14 +13,10 @@
         </div>
         <div id="menu">
 		    <ul>			    
-			    <li><a onclick="troca_conteudo('arquivos')" href="#">Arquivos</a></li>
 				<li><a onclick="troca_conteudo('resumo')" href="#">Resumo</a></li>
+			    <li><a onclick="troca_conteudo('arquivos')" href="#">Arquivos</a></li>
+				<li><a onclick="troca_conteudo('codigos')" href="#">Códigos</a></li>			
 				<li><a onclick="troca_conteudo('links')" href="#">Links</a></li>
-				<li><a onclick="troca_conteudo('tema')" href="#">Tema</a></li>
-			    <li><a onclick="troca_conteudo('atividades')" href="#">Atividades</a></li>
-   			    <li><a onclick="troca_conteudo('estrutura')" href="#">Estrutura</a></li>
-				
-
 		    </ul>
 	    </div>	
     </div>
@@ -49,39 +45,9 @@
 		</div>
 
         <div id="conteudo-central">
-            <div id="tema" style="display: none;">
-                <h2>Tema</h2>
-		        <p>
-                    Baseado nos conceitos propostos por renomados especialistas em desenvolvimento
-                    de software orientado a objetos quanto a um código limpo,
-                    este trabalho tem o objetivo de estabelecer uma relação direta entre esses aspectos
-                    subjetivos estudados e seu mapeamento para métricas de código fonte.
-                </p>
-                <p>
-                    Após um levantamento dos principais conceitos e técnicas, tentaremos apresentar uma ou mais métricas para servirem 
-                    como indicativo. Por fim, o trabalho apresentará ferramentas para auxiliar na extração desses valores e que possibilitarão
-                    um acompanhamento do código ao longo do desenvolvimento do software de forma automatizada.
-                </p>
-                <h2> Objetivos </h2>
-                <p> 
-                    O principal objetivo deste trabalho é auxiliar os programadores a melhorem a expressividade e clareza de seus códigos-fonte
-                    através de um mapeamento objetivo do conhecimento de especialistas em desenvolvimento de software. 
-                    Para tanto, agruparemos os principais conceitos da literatura relacionada e proporemos um conjunto
-                    de métricas para facilitar uma avaliação mais profunda.
-                </p>
-                <p>
-                    A proposta surgiu da nossa própria necessidade de entender o que é um bom código orientado a objetos. Gostaríamos de desenvolver
-                    um trabalho para nos aprofundarmos no tema, além de possivelmente auxiliar outras pessoas a pensarem nos seus códigos.
-                    Com um mapeamento das ideias subjetivas para medidas objetivas, podemos facilitar
-                    o processo de avaliação e dar uma base de comparação, tanto entre projetos e suas versões, quanto com os conceitos propostos.
-                <p>
-                    Uma vez com um modelo teórico, gostaríamos de obter as métricas de maneira automatizada.
-                    Sendo assim, também temos como objetivo desenvolver e apresentar ferramentas que podem calcular tais valores e que possibilitem um 
-                    acompanhamento do projeto.
-                </p>
-            </div>
 
-            <div id="resumo" style="display: none;">
+
+            <div id="resumo" style="display: ;">
                 <h2> Resumo </h2>
                 <p> 
                    	Ao produzir software, os desenvolvedores não podem ficar satisfeitos com um código que simplesmente faz o trabalho que deve ser feito. É preciso 
@@ -111,205 +77,8 @@
 					do trabalho, além de contribuir diretamente com melhorias para o código da aplicação.
                 </p>
             </div>
-
-
-            <div id="atividades" style="display: none;">
-                <h2> Atividades </h2>
-                <div id="atividades_realizadas">
-                   
-					<h3> O que já foi feito?  </h3>
-					<p class="identado">
-						Todo o trabalho mais prático já foi feito durante a iniciação científica. As ferramentas que serão citas na monografia já estão 
-						funcionais e prontas para download (elas estão descritas abaixo em "Desenvolvimento de Ferramentas").
-					</p>
-                    <p class="identado">
-                       	Termino da leitura dos livros <i>Clean Code</i> de Robert Martin e <i>Implementation Patterns</i> de Kent Beck. Durante essa 
-						atividade, fizemos um resumo dos principais conceitos apresentados (disponíveis em "Arquivos").
-					</p>
-					<p class="identado">
-						Escolhemos os aspectos que gostariamos de trabalhar e citar no capítulo sobre código limpo, na visão dos autores selecionados. 
-                        Desde então começamos a redigir a monografia. Nesse momento, já terminamos uma primeira versão desse capítulo (disponível em
-                        "Arquivos").
-					</p>
-					<p class="identado">
-						Também fizemos uma leitura e resumo do livro <i>Object-Oriented Metrics in Practice</i>, que apresenta problemas de design em sistemas 
-                        orientados a objetos e as métricas que podem ser usadas para detectá-los automaticamente.
-					</p>
-                    <p class="identado">
-                        Realizamos uma pesquisa para encontrar mais livros e artigos que apresentam informações e aplicações interessantes sobre o uso de 
-                        métricas. A maioria desses trabalhos é parte das referências utilizadas no doutorado de Paulo Meirelles.
-					</p>
-
-					<h3> O que falta fazer? </h3>
-					<p class="identado">
-						Na parte relacionada aos aspectos subjetivos de um código limpo, o que resta desenvolver é a monografia em si. Infelizmente dois dos 
-                        livros que gostariamos de trabalhar	provavelmente não entrarão no trabalho: o <i>Beautiful Code</i> não se encaixa exatamente no 
-                        contexto desse tcc, e não encontramos o livro Code Complete na biblioteca. Possivelmente conseguiremos o segundo e suas ideias serão 
-                        inseridas no texto que já temos.
-					</p>
-					<p class="identado">
-                        Além disso, ainda falta ler a parte relacionada com métricas do livro <i>Agile Software Development: Principles, Patterns, and 
-                        Practices</i> e os artigos escolhidos a partir da pesquisa citada acima. Após essa leitura, faremos o levantamento das métricas que 
-                        poderiam formar um conjunto para análise automática do código, de forma que as principais características apresentadas no capítulo 
-                        sobre código limpo sejam detectadas.
-					</p>
-					<p class="identado">
-						Depois de selecionadas as métricas, começaremos a redação do capítulo de métricas, no qual cada uma será explicada em detalhes. 
-                        Nosso objetivo é entender e demonstrar como as mudanças e refatorações no código afetam os valores finais das métricas. Para isso, 
-                        coletaremos um conjunto de exemplos e trabalharemos sobre eles.
-					</p>
-					<p class="identado">
-						Por fim, vamos redigir a introdução e a metodologia de trabalho, além de montar o 
-						poster e criar a apresentação do tcc.
-					</p>
-
-
-		            <h3> Desenvolvimento de Ferramentas </h3>
-                    <p class="identado">
-                        Participamos de um grupo de pesquisa orientado pelo Prof. Fabio Kon, no qual colaboramos com o desenvolvimento de ferramentas
-                        capazes de calcular métricas de código-fonte. Já estamos trabalhando em cima de uma ferramenta livre, chamada Analizo, desde o
-                        segundo semestre de 2009, que, atualmente, analiza projetos nas linguagens Java, C e C++. 
-					</p>
-					<p class="identado">
-						Além disso, durante a Disciplina de Laboratório de Programação Extrema começamos o desenvolvimento para possibilitar o
-						acompanhamento online das métricas de um projeto. Essa aplicação chama Mezuro e conta com a colaboração dos doutorandos Paulo 
-						Meirelles do IME e Antonio Terceiro da	UFBA.
-					</p>
-					<p class="identado"> 
-						Por fim, ainda há uma ferramenta chamada Kalibro cujo objetivo é prover uma interface 
-						para o usuário trabalhar com as	métricas extraídas pela Analizo, além de permitir a configuração de intervalos para as métricas 
-						dando um caráter mais subjetivo.
-                    </p>
-
-						
-                </div>
-                <br/>
-                <div id="cronograma">
-                    <h3> Cronograma </h3>
-                    <table id="crono"> 
-                        <tr> 
-                            <th> Atividade / Mês </th> 
-                            <th> Mar </th> 
-                            <th> Abr </th> 
-                            <th> Mai </th> 
-                            <th> Jun </th> 
-                            <th> Jul </th> 
-                            <th> Ago </th> 
-                            <th> Set </th> 
-                            <th> Out </th>
-                            <th> Dez </th>
-                        </tr>
-                        <tr> 
-                            <td> Desenvolvimento de Ferramentas do Mezuro  </th> 
-                            <td> X </td> 
-                            <td> X </td> 
-                            <td> X </td> 
-                            <td> X </td> 
-                            <td> X </td> 
-                            <td> </td> 
-                            <td> </td> 
-                            <td> </td>
-                            <td> </td>
-                        </tr>
-                        <tr> 
-                            <td> Estudo da Literatura </th> 
-                            <td>  </td> 
-                            <td> X </td> 
-                            <td>  </td> 
-                            <td> X </td> 
-                            <td> X </td> 
-                            <td> X </td> 
-                            <td> </td> 
-                            <td> </td>
-                            <td> </td>
-                        </tr>
-                        <tr> 
-                            <td> Elaboração do Mapeamento </th> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td> X </td> 
-                            <td> X </td> 
-                            <td> X </td>
-                            <td> </td>
-                        </tr>
-                        <tr> 
-                            <td> Seminário sobre Código Limpo </th> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td> X </td> 
-                            <td> </td> 
-                            <td> </td>
-                            <td> </td>
-                        </tr>
-
-                        <tr> 
-                            <td> Escrita da Monografia </th> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td> X </td> 
-                            <td> X </td> 
-                            <td> X </td>
-                            <td> X </td>
-                        </tr>
-                        <tr> 
-                            <td> Apresentação </th> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td> 
-                            <td>  </td>
-                            <td> X </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-            <div id="estrutura" style="display: none;">
-                <h2> Estrutura Esperada</h2>
-                <p class="sessao"> Introdução </p>
-                <p> 
-                    Nesta seção discutiremos por que temos que nos preocupar com o código-fonte de nossas aplicações. Usaremos argumentos bastante
-                    conhecidos pela Engenharia de Software e abordaremos aspectos negativos da falta de preocupação com o código. Além disso, falaremos
-                    um pouco sobre a bibliografia usada e os aspectos que compõe o trabalho.
-                </p>
-                <p class="sessao"> Critérios Subjetivos </p>
-                <p> 
-                    Apresentaremos uma visão geral dos principais conceitos e idéias da literatura feita por grandes especialistas na área. 
-                    Faremos um apanhado geral dos pontos em que os autores concordam, mostrando como podemos melhorar nosso código e porque 
-                    determinados aspectos devem ser evitados.
-                </p>
-
-                <p class="sessao"> Métricas Objetivas </p>
-                <p> 
-                    Apresentaremos uma visão geral sobre métricas de código-fonte e como podem servir como indicativos para identificar atributos importantes
-                    do código-fonte.
-                    A sessão também conterá uma discussão sobre como podemos mapear os conceitos da seção anterior em métricas objetivas. A ideia é apresentar
-                    quais métricas podem ser utilizadas, como obtê-las e como cobrem os aspectos subjetivos.
-                </p>
-
-                <p class="sessao"> Projeto Mezuro: ferramentas para acompanhamento de métricas de código-fonte </p>
-                <p> 
-                    Conterá uma apresentação das ferramentas desenvolvidas no contexto do Projeto Mezuro capazes de 
-                    calcular as métricas e prover o acompanhamento de um projeto. Além disso, mostraremos como as ferramentas podem ser utilizadas 
-                    para automatizar o mapeamento proposto.
-                </p>
-                <p class="sessao"> Conclusão </p>
-                <p class="sessao"> Bibliografia </p>
-            </div>
             
-            <div id="arquivos" style="display: ;">
+            <div id="arquivos" style="display: none;">
                 <h2> Arquivos </h2>
 				<table>
                     <tr>
@@ -335,26 +104,32 @@
                         <td> Apresentação </td>
                     </tr>
 				</table>
-				<br/><br/>
-
-
             </div>
+
+         	<div id="codigos" style="display: none;">
+                <h2> Códigos </h2>
+				<table>
+                    <tr>
+                        <td><a href="arquivos/Analizo.zip"><img class="file_img" src="imagens/archive.png"/> </a></td>
+                        <td><a href="arquivos/Patches.zip"><img class="file_img" src="imagens/archive.png"/> </a></td>
+                    </tr>
+                    <tr>
+                        <td> Analizo antes do Estudo de Caso </td>
+						<td> Patches Analizo do Estudo de Caso </td>
+                    </tr>
+                </table>
+            </div>
+
+
 			<div id="links" style="display: none;">
 		    	<h2> Links </h2>
 		
 				<h3> Ferramentas </h3>
 				<p> <b> Analizo </b></p>
-				<p class="identado"> <a href="http://softwarelivre.org/mezuro/analizo" target="_blank"> Página Oficial no SoftwareLivre.org: http://softwarelivre.org/mezuro/analizo </a> </p>
+				<p class="identado"> <a href="http://analizo.org" target="_blank"> Página Oficial da Analizo: http://analizo.org </a> </p>
 				<p class="identado"> <a href="http://www.github.com/terceiro/analizo" target="_blank"> Código Fonte no Github: http://www.github.com/terceiro/analizo</a> </p>
 				<br/>
-				<p> <b> Kalibro </b></p>
-				<p class="identado"> <a href="http://softwarelivre.org/mezuro/kalibro" target="_blank"> Página Oficial no SoftwareLivre.org: http://softwarelivre.org/mezuro/kalibro </a> </p>
-				<br/>
-				<p> <b> Mezuro </b></p>
-				<p class="identado"> <a href="http://softwarelivre.org/mezuro" target="_blank"> Página Oficial no SoftwareLivre.org: http://softwarelivre.org/mezuro</a> </p>
-				<p class="identado"> <a href="http://www.github.com/paulormm/mezuro" target="_blank"> Código Fonte no Github: http://www.github.com/paulormm/mezuro</a> </p>
-				<br/>
-				
+								
 				<h3> Referências </h3>
 				<p class="identado"> <a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882" target="_blank"> Livro Clean Code na Amazon </a> </p>
 				<p class="identado"> <a href="http://www.amazon.com/Implementation-Patterns-Kent-Beck/dp/0321413091/" target="_blank"> Livro Implementation Patterns na Amazon </a> </p>
@@ -363,9 +138,9 @@
 				<p class="identado"> <a href="http://manifesto.softwarecraftsmanship.org/" target="_blank"> Craftsmanship Manifesto </a> </p>
 				<p class="identado"> <a href="http://www.artima.com/intv/fixit.html" target="_blank"> Don't Live With Broken Windows </a> </p>
 				<p class="identado"> <a href="http://en.wikipedia.org/wiki/Dependency_inversion_principle" target="_blank"> Dependency Inversion Principle </a> </p>
-				<p class="identado"> <a href="arquivos/dip.pdf" target="_blank"> Artigo de Robert Martin sobre Depedency Inversion</a> </p>
+				<p class="identado"> <a href="arquivos/referencias/dip.pdf" target="_blank"> Artigo de Robert Martin sobre Depedency Inversion</a> </p>
 				<p class="identado"> <a href="http://en.wikipedia.org/wiki/Solid_(object-oriented_design)" target="_blank"> Solid Principles</a> </p>
-				<p class="identado"> <a href="arquivos/oodmetrics.pdf" target="_blank"> Artigo de Robert Martin sobre Métrics de Design OO </a> </p>
+				<p class="identado"> <a href="arquivos/referencias/oodmetrics.pdf" target="_blank"> Artigo de Robert Martin sobre Métrics de Design OO </a> </p>
 				
 		    </div>
 

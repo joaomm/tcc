@@ -74,7 +74,7 @@ p {
 
 #menu {
 	float: right;
-	width: 590px;
+	width: 500px;
 }
 
 #menu ul {
@@ -92,7 +92,7 @@ p {
 #menu a {
 	float: left;
     height: 30px;
-	padding: 45px 15px 0px 15px;
+	padding: 45px 20px 0px 20px;
 	text-decoration: none;
 	text-transform: lowercase;
 	font-family: Helvetica, Arial, sans-serif;
@@ -200,6 +200,17 @@ p {
 	width: 130px;
 }
 
+#codigos table{
+    margin: 20px 100px;
+	width: 70%;
+    text-align: center;
+}
+
+#codigos td {
+	padding: 15px;
+}
+
+
 #contato {
     margin: 20px 0px 0px 0px;
 }
@@ -222,7 +233,11 @@ p {
 
 #links p {
 	margin: 0px 0px 5px 0px;
-    padding: 0px 5px;
+    padding: 0px 60px;
+}
+
+#links h3{
+	padding: 0px 20px;
 }
 
 .identado {

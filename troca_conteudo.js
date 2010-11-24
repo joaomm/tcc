@@ -1,4 +1,4 @@
-var atual = 'arquivos';
+var atual = 'resumo';
 
 function troca_conteudo(id_da_div) {
 	document.getElementById(atual).style.display = 'none';
